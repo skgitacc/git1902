@@ -18,7 +18,8 @@ public class Sel {
 
 		TakesScreenshot ss = (TakesScreenshot) driver;
 		File src = ss.getScreenshotAs(OutputType.FILE);
-
+		System.out.println(src);
+		
 		File dest = new File("\\C:\\Users\\admin\\Pictures\\Camera Roll\\sk.png");
 	}
 }
